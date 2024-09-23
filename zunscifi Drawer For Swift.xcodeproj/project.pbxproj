@@ -16,6 +16,13 @@
 		11CD21AF2CA118E200584410 /* zunscifi_Drawer_For_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21AE2CA118E200584410 /* zunscifi_Drawer_For_SwiftTests.swift */; };
 		11CD21B92CA118E200584410 /* zunscifi_Drawer_For_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21B82CA118E200584410 /* zunscifi_Drawer_For_SwiftUITests.swift */; };
 		11CD21BB2CA118E200584410 /* zunscifi_Drawer_For_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21BA2CA118E200584410 /* zunscifi_Drawer_For_SwiftUITestsLaunchTests.swift */; };
+		11CD21C82CA11A6900584410 /* DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21C72CA11A6900584410 /* DrawerCell.swift */; };
+		11CD21CA2CA11B0800584410 /* DrawerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11CD21C92CA11B0800584410 /* DrawerCell.xib */; };
+		11CD21CC2CA11C5100584410 /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21CB2CA11C5100584410 /* DrawerMenuViewController.swift */; };
+		11CD21CE2CA11C6F00584410 /* DrawerMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21CD2CA11C6F00584410 /* DrawerMenuModel.swift */; };
+		11CD21D02CA11D5900584410 /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21CF2CA11D5900584410 /* DrawerController.swift */; };
+		11CD21D22CA1263400584410 /* DrawerGestureHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21D12CA1263400584410 /* DrawerGestureHandler.swift */; };
+		11CD21D42CA1266700584410 /* DrawerAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD21D32CA1266700584410 /* DrawerAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		11CD21B42CA118E200584410 /* zunscifi Drawer For SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zunscifi Drawer For SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CD21B82CA118E200584410 /* zunscifi_Drawer_For_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zunscifi_Drawer_For_SwiftUITests.swift; sourceTree = "<group>"; };
 		11CD21BA2CA118E200584410 /* zunscifi_Drawer_For_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zunscifi_Drawer_For_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11CD21C72CA11A6900584410 /* DrawerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerCell.swift; sourceTree = "<group>"; };
+		11CD21C92CA11B0800584410 /* DrawerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerCell.xib; sourceTree = "<group>"; };
+		11CD21CB2CA11C5100584410 /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
+		11CD21CD2CA11C6F00584410 /* DrawerMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerMenuModel.swift; sourceTree = "<group>"; };
+		11CD21CF2CA11D5900584410 /* DrawerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerController.swift; sourceTree = "<group>"; };
+		11CD21D12CA1263400584410 /* DrawerGestureHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerGestureHandler.swift; sourceTree = "<group>"; };
+		11CD21D32CA1266700584410 /* DrawerAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,7 @@
 		11CD21962CA118E100584410 /* zunscifi Drawer For Swift */ = {
 			isa = PBXGroup;
 			children = (
+				11CD21C92CA11B0800584410 /* DrawerCell.xib */,
 				11CD21972CA118E100584410 /* AppDelegate.swift */,
 				11CD21992CA118E100584410 /* SceneDelegate.swift */,
 				11CD219B2CA118E100584410 /* ViewController.swift */,
@@ -106,6 +121,12 @@
 				11CD21A02CA118E200584410 /* Assets.xcassets */,
 				11CD21A22CA118E200584410 /* LaunchScreen.storyboard */,
 				11CD21A52CA118E200584410 /* Info.plist */,
+				11CD21C72CA11A6900584410 /* DrawerCell.swift */,
+				11CD21CB2CA11C5100584410 /* DrawerMenuViewController.swift */,
+				11CD21CD2CA11C6F00584410 /* DrawerMenuModel.swift */,
+				11CD21CF2CA11D5900584410 /* DrawerController.swift */,
+				11CD21D12CA1263400584410 /* DrawerGestureHandler.swift */,
+				11CD21D32CA1266700584410 /* DrawerAnimator.swift */,
 			);
 			path = "zunscifi Drawer For Swift";
 			sourceTree = "<group>";
@@ -234,6 +255,7 @@
 				11CD21A12CA118E200584410 /* Assets.xcassets in Resources */,
 				11CD21A42CA118E200584410 /* Base in Resources */,
 				11CD219F2CA118E100584410 /* Base in Resources */,
+				11CD21CA2CA11B0800584410 /* DrawerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CD21C82CA11A6900584410 /* DrawerCell.swift in Sources */,
+				11CD21CC2CA11C5100584410 /* DrawerMenuViewController.swift in Sources */,
 				11CD219C2CA118E100584410 /* ViewController.swift in Sources */,
+				11CD21CE2CA11C6F00584410 /* DrawerMenuModel.swift in Sources */,
 				11CD21982CA118E100584410 /* AppDelegate.swift in Sources */,
 				11CD219A2CA118E100584410 /* SceneDelegate.swift in Sources */,
+				11CD21D02CA11D5900584410 /* DrawerController.swift in Sources */,
+				11CD21D42CA1266700584410 /* DrawerAnimator.swift in Sources */,
+				11CD21D22CA1263400584410 /* DrawerGestureHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,16 @@
 
 import UIKit
 
+extension UIViewController {
+    // Helper function to get the DrawerController instance from any view controller
+    func getDrawerController() -> DrawerController? {
+        var currentController: UIViewController? = self
+        while currentController != nil && !(currentController is DrawerController) {
+            currentController = currentController?.parent
+        }
+        return currentController as? DrawerController
+    }
+}
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

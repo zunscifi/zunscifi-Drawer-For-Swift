@@ -21,12 +21,12 @@ class DrawerMenuViewController: UIViewController {
     
     // Menu data containing icons and titles
     var menuItems: [DrawerMenuModel] = [
-        DrawerMenuModel(icon: UIImage(systemName: "heart")!, title: "Favorites"),
-        DrawerMenuModel(icon: UIImage(systemName: "quote.opening")!, title: "Pickup Line of the Day"),
-        DrawerMenuModel(icon: UIImage(systemName: "gearshape")!, title: "Settings"),
-        DrawerMenuModel(icon: UIImage(systemName: "envelope")!, title: "Customer Support"),
-        DrawerMenuModel(icon: UIImage(systemName: "star")!, title: "Rate 5 Star"),
-        DrawerMenuModel(icon: UIImage(systemName: "square.and.arrow.up")!, title: "Share App")
+        DrawerMenuModel(icon: UIImage(systemName: "heart")!, title: "Item 1"),
+        DrawerMenuModel(icon: UIImage(systemName: "heart")!, title: "Item 2"),
+        DrawerMenuModel(icon: UIImage(systemName: "heart")!, title: "Item 3"),
+        DrawerMenuModel(icon: UIImage(systemName: "heart")!, title: "Item 4"),
+        DrawerMenuModel(icon: UIImage(systemName: "heart")!, title: "Item 5"),
+        DrawerMenuModel(icon: UIImage(systemName: "heart")!, title: "Item 6")
     ]
     
     // Lifecycle method called after the view is loaded
